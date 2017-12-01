@@ -4,7 +4,7 @@ import { colors, fonts, metrics, general } from 'styles';
 
 const styles = StyleSheet.create({
   container: {
-    height: 85,
+    height: (60 + metrics.statusBarHeight),
     backgroundColor: colors.red,
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: colors.red_light,
     paddingHorizontal: metrics.baseMargin-5,
-    paddingTop: 30,
+    paddingTop: (10 + metrics.statusBarHeight),
   },
   titleContainer: {
     flex: 1,
