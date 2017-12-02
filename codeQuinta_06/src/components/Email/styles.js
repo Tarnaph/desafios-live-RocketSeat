@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: colors.white,
-    borderBottomWidth: 2,
+    borderBottomWidth: 1,
     borderColor: colors.lighter,
     height: metrics.email,
     paddingLeft: 15,
@@ -18,9 +18,21 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: colors.purple,
     justifyContent: 'center',
     alignItems: 'center',
+    paddingBottom: 3,
+  },
+  'bg-aqua': {
+    backgroundColor: colors.aqua,
+  },
+  'bg-red': {
+    backgroundColor: colors.red,
+  },
+  'bg-yellow': {
+    backgroundColor: colors.yellow,
+  },
+  'bg-green': {
+    backgroundColor: colors.green,
   },
   icon: {
     color: colors.white,

@@ -31,8 +31,16 @@ const styles = StyleSheet.create({
     marginTop: 5,
   },
   badges: {
-    backgroundColor: colors.blue,
     width: 60,
+  },
+  'bg-aqua': {
+    backgroundColor: colors.aqua,
+  },
+  'bg-red': {
+    backgroundColor: colors.red,
+  },
+  'bg-magenta': {
+    backgroundColor: colors.magenta,
   },
   badgesText: {
     color: colors.white,

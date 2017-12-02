@@ -1,5 +1,5 @@
 export default {
-	biggerPlus: 28,
+  biggerPlus: 28,
   bigger: 20,
   big: 18,
   regular: 16,
